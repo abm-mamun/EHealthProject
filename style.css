@@ -1,0 +1,117 @@
+.intro{
+  background-color:cyan;
+  height: 80px;
+  width: 100%;
+  float:left;
+}
+.left{
+  width:30%;
+  height: 80px;
+  float: left;
+  margin-left: 30px;
+  padding-top: 20px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 36px;
+  color:black;
+}
+.right{
+  width:30%;
+  height: 80px;
+  padding-right: 5px;
+  padding-left: 30px;
+  background-color:blue;
+  float: right;
+  font-family: 'Aldrich', sans-serif;
+  color:black;
+}
+.dropdown
+{
+    background-color:grey;
+    height: 48px;
+    width: 100%;
+    margin-top:20px;
+    float:left;
+    margin-bottom:20px;
+}
+.dd
+{
+    list-style-type: none;
+    font-family: 'Aldrich', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li.x {
+    float: left;
+    height: auto;
+    padding-left: 10px;
+    background-color: grey;
+}
+li.y
+{
+    float: right;
+    padding-right: 40px;
+    background-color: grey;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: red;
+    color: black;
+}
+img{
+  height:500px;
+  width:100%;
+}
+.sidewindow {
+    position: absolute;
+    padding : 20px;
+    opacity: 0.5;
+    height: 420px;
+    width: 500px;
+    top: 180px;
+    left: 16px;
+    background-color:black;
+    font-family: 'Aldrich', sans-serif;
+    text-align: left;
+    color: white;
+}
+.bottomwindow
+{
+  position: relative;
+  background-color:black;
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
+.loginform, .regform
+{
+  background-color: white;
+  opacity: 1;
+  position: absolute;
+  height: 420px;
+  width: 500px;
+  top: 200px;
+  margin-left:400px;
+  margin-right:400px;
+  font-family: 'Aldrich', sans-serif;
+}
+#loghead, .reghead
+{
+  text-align: center;
+  color: black;
+}
+button{
+  font-family: 'Aldrich', sans-serif;
+  background-color: grey;
+  color: cyan;
+}
+input{
+  font-family: 'Aldrich', sans-serif;
+}
